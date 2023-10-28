@@ -47,10 +47,14 @@ Once the installation is complete, follow these steps to use the application:
 2. Run the application:
 
     ```bash
-    python detect_currency.py --input your_currency_image.jpg
+    python app.py
     ```
+    A web page will be displayed
+   ![Prediction Page](https://github.com/Abhishek3689/Test_Train_Datsets_CSV_Excel/blob/main/web_page_currency.png)
 
-   Replace `your_currency_image.jpg` with the path to the image you want to analyze.
+   Upload `your_currency_image.jpg`  to analyze.
+   
+3.For live prediction use '/live' after current url page, a webcam will be opened, show your currencies in front of camera it will predict.
 
 ## Model Training
 
